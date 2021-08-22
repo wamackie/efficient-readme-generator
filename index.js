@@ -1,5 +1,6 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateReadMe = require('./src/readme_template')
 
 const data = () => {
     return inquirer.prompt([
