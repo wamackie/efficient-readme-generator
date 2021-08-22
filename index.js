@@ -3,7 +3,7 @@ const inquirer = require('inquirer');
 const util = require('util');
 const createReadMe = util.promisify(fs.writeFile);
 
-const logData = (data) => inquirer.prompt([
+const logData = () => inquirer.prompt([
     {
         type: 'input',
         name: 'title',
