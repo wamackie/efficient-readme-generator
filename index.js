@@ -1,9 +1,9 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const util = require('util');
-//const createReadMe = util.promisify(fs.writeFile);
+const createReadMe = util.promisify(fs.writeFile);
 
-const logData = () => inquirer.prompt([
+const logData = (data) => inquirer.prompt([
     {
         type: 'input',
         name: 'title',
@@ -137,7 +137,7 @@ const logData = () => inquirer.prompt([
     }
     ])
 
-    module.exports = (title, description, installation, usage, licenses, contribute, test, creator, github, email) => {
+    function writeData (data) {
         return `# ${data.title}
     ${data.description}
     
