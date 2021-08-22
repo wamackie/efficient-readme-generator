@@ -57,7 +57,7 @@ const logData = (data) => inquirer.prompt([
         }
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'licenses',
         message: 'What license does your project use?',
         choices: ['x', 'y', 'z'],
@@ -169,3 +169,8 @@ const logData = (data) => inquirer.prompt([
     This project was created by ${data.creator}. Feel free to contact me at https://github.com/${data.github} or by email at ${data.email}.
     `
     }
+
+    logData()
+        .then((data) => createReadMe ('README.md',
+        writeData(data)))
+            .then(() => console.log('Created README.md'));
