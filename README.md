@@ -2,7 +2,9 @@
 ![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
 Creates a professional readme using node
 
-![Walkthrough](https://drive.google.com/file/d/1hdGJQnZOx8K842gmGHZHUJWKo4O8eACO/view)(assets/images/screencastify.png)
+## Walkthrough Video
+
+[![Walkthrough](assets/images/screencastify.png)](https://drive.google.com/file/d/1hdGJQnZOx8K842gmGHZHUJWKo4O8eACO/view "Walkthrough")
     
 ## Table of Contents
 * [Installation](#installation)
@@ -23,7 +25,7 @@ Install dependencies before use. Use the console to "run index" in the root fold
 This application uses the MIT license.
     
 ## Contributing:
-Wamackie
+Feel free to contribute and make improvements.
     
 ## Tests:
 None
