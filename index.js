@@ -137,7 +137,7 @@ ${data.description}
 * [Questions](#questions)
     
 ## Installation
-To install:
+To install:<br>
 ${data.installation}
     
 ## Usage:
@@ -154,7 +154,7 @@ ${data.contribute}
 ${data.test}
     
 ## Questions:
-Contact regarding any questions:
+Contact regarding any questions:<br>
 Github: https://github.com/${data.github}<br>
 Email: ${data.email}
 `
