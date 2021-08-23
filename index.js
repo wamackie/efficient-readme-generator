@@ -126,6 +126,7 @@ const logData = () => inquirer.prompt([
 
 function writeData (data) {
     return `# ${data.title}
+![badge](https://img.shields.io/badge/license-${data.licenses}-yellowgreen)<br>
 ${data.description}
     
 ## Table of Contents
@@ -144,7 +145,7 @@ ${data.installation}
 ${data.usage}
     
 ## License:
-![badge](https://img.shields.io/badge/license-${data.licenses}-yellowgreen)<br>
+This application uses the ${data.licenses} license.
     
 ## Contributing:
 ${data.contribute}
