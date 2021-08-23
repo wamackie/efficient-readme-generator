@@ -60,7 +60,7 @@ const logData = () => inquirer.prompt([
         type: 'list',
         name: 'licenses',
         message: 'What license does your project use?',
-        choices: ['x', 'y', 'z'],
+        choices: ['Apache', 'MIT', 'Open', 'GNU', 'Mozilla'],
         validate: licenseChoice => {
             if (licenseChoice) {
                 return true;
@@ -92,19 +92,6 @@ const logData = () => inquirer.prompt([
                 return true;
             } else {
                 console.log('Please enter testing instructions!');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        name: 'creator',
-        message: 'Who created this? (first and last name)',
-        validate: creatorInput => {
-            if (creatorInput) {
-                return true;
-            } else {
-                console.log('Please enter who created this!')
                 return false;
             }
         }
@@ -150,14 +137,15 @@ ${data.description}
 * [Questions](#questions)
     
 ## Installation
-Console command to install dependencies:
+To install:
 ${data.installation}
     
 ## Usage:
 ${data.usage}
     
 ## License:
-${data.licenses}
+![badge](https://img.shields.io/badge/license-${data.licenses}-yellowgreen)<br>
+Created using the ${data.licenses} license.
     
 ## Contributing:
 ${data.contribute}
@@ -165,8 +153,10 @@ ${data.contribute}
 ## Tests:
 ${data.test}
     
-## Contact:
-This project was created by ${data.creator}. Feel free to contact me at https://github.com/${data.github} or by email at ${data.email}.
+## Questions:
+Contact regarding any questions:
+Github: https://github.com/${data.github}<br>
+Email: ${data.email}
 `
 }
 

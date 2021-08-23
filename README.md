@@ -1,5 +1,5 @@
 # Readme Generator
-Creates a readme using node based on user inputs
+Readme Generator creates a readme
     
 ## Table of Contents
 * [Installation](#installation)
@@ -10,20 +10,23 @@ Creates a readme using node based on user inputs
 * [Questions](#questions)
     
 ## Installation
-Console command to install dependencies:
+To install:
 npm install
     
 ## Usage:
-Feel free to use
+Install dependencies before use. Use the console to "run index" in the root folder.
     
 ## License:
-x
+![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
+Created using the MIT license.
     
 ## Contributing:
-Message before contributing
+Wamackie
     
 ## Tests:
-test
+N/A
     
 ## Contact:
-This project was created by William Mackie. Feel free to contact me at https://github.com/wamackie or by email at wamackie8456@gmail.com.
+Created by William Mackie.<br>
+Github: https://github.com/wamackie<br>
+Email: wamackie8456@gmail.com
