@@ -1,6 +1,8 @@
 # Readme Generator
 ![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
 Creates a professional readme using node
+
+![Walkthrough](https://drive.google.com/file/d/1hdGJQnZOx8K842gmGHZHUJWKo4O8eACO/view)
     
 ## Table of Contents
 * [Installation](#installation)
