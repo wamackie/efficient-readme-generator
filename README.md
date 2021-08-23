@@ -1,5 +1,6 @@
 # Readme Generator
-Creates a professional readme using node.
+![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
+Creates a professional readme using node
     
 ## Table of Contents
 * [Installation](#installation)
@@ -17,8 +18,7 @@ npm install
 Install dependencies before use. Use the console to "run index" in the root folder.
     
 ## License:
-![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
-Created using the MIT license.
+This application uses the MIT license.
     
 ## Contributing:
 Wamackie
@@ -27,6 +27,6 @@ Wamackie
 None
     
 ## Questions:
-Contact regarding any questions:<br>
+Feel free to contact me with any questions you may have.<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com
