@@ -1,6 +1,8 @@
 # Readme Generator
 ![badge](https://img.shields.io/badge/license-MIT-yellowgreen)<br>
-Creates a professional readme using node.
+Creates a professional readme using node
+
+![Walkthrough](https://drive.google.com/file/d/1hdGJQnZOx8K842gmGHZHUJWKo4O8eACO/view)
     
 ## Table of Contents
 * [Installation](#installation)
@@ -27,6 +29,6 @@ Wamackie
 None
     
 ## Questions:
-Feel free to contact me with any questions you may have.<br>
+Feel free to contact me regarding any questions you may have.<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com
