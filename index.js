@@ -163,4 +163,4 @@ Email: ${data.email}
 logData()
     .then((data) => createReadMe ('README.md',
     writeData(data)))
-        .then(() => console.log('Created README.md'));
+        .then(() => console.log('Created README.md'))
