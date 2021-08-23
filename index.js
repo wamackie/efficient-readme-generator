@@ -153,7 +153,7 @@ ${data.contribute}
 ${data.test}
     
 ## Questions:
-Contact regarding any questions:<br>
+Feel free to contact me with any questions you may have.<br>
 Github: https://github.com/${data.github}<br>
 Email: ${data.email}
 `
