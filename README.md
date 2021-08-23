@@ -27,6 +27,6 @@ Wamackie
 None
     
 ## Questions:
-Feel free to contact me with any questions you may have.<br>
+Feel free to contact me regarding any questions you may have.<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com
