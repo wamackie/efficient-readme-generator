@@ -1,5 +1,5 @@
 # Readme Generator
-Readme Generator creates a readme
+Creates a professional readme using node.
     
 ## Table of Contents
 * [Installation](#installation)
@@ -10,7 +10,7 @@ Readme Generator creates a readme
 * [Questions](#questions)
     
 ## Installation
-To install:
+To install:<br>
 npm install
     
 ## Usage:
@@ -24,9 +24,9 @@ Created using the MIT license.
 Wamackie
     
 ## Tests:
-N/A
+None
     
-## Contact:
-Created by William Mackie.<br>
+## Questions:
+Contact regarding any questions:<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com

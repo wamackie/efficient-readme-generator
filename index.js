@@ -145,7 +145,6 @@ ${data.usage}
     
 ## License:
 ![badge](https://img.shields.io/badge/license-${data.licenses}-yellowgreen)<br>
-Created using the ${data.licenses} license.
     
 ## Contributing:
 ${data.contribute}
