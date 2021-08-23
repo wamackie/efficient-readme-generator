@@ -46,7 +46,7 @@ const logData = () => inquirer.prompt([
     {
         type: 'input',
         name: 'usage',
-        message: 'Instruct others how to use your project:',
+        message: 'What goes in the usage section?',
         validate: usageInput => {
             if (usageInput) {
                 return true;
@@ -137,40 +137,40 @@ const logData = () => inquirer.prompt([
     }
     ])
 
-    function writeData (data) {
-        return `# ${data.title}
-    ${data.description}
+function writeData (data) {
+    return `# ${data.title}
+${data.description}
     
-    ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## Installation
-    Console command to install dependencies:
-    ${data.installation}
+## Installation
+Console command to install dependencies:
+${data.installation}
     
-    ## Usage:
-    ${data.usage}
+## Usage:
+${data.usage}
     
-    ## License:
-    ${data.licenses}
+## License:
+${data.licenses}
     
-    ## Contributing:
-    ${data.contribute}
+## Contributing:
+${data.contribute}
     
-    ## Tests:
-    ${data.test}
+## Tests:
+${data.test}
     
-    ## Contact:
-    This project was created by ${data.creator}. Feel free to contact me at https://github.com/${data.github} or by email at ${data.email}.
-    `
-    }
+## Contact:
+This project was created by ${data.creator}. Feel free to contact me at https://github.com/${data.github} or by email at ${data.email}.
+`
+}
 
-    logData()
-        .then((data) => createReadMe ('README.md',
-        writeData(data)))
-            .then(() => console.log('Created README.md'));
+logData()
+    .then((data) => createReadMe ('README.md',
+    writeData(data)))
+        .then(() => console.log('Created README.md'));
