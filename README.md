@@ -31,6 +31,6 @@ Feel free to contribute and make improvements.
 None
     
 ## Questions:
-Feel free to contact me regarding any questions you may have.<br>
+Contact me regarding any questions you may have.<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com
