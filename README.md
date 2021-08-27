@@ -25,12 +25,12 @@ Install dependencies before use. Use the console to "run index" in the root fold
 This application uses the MIT license.
     
 ## Contributing:
-Feel free to contribute and make improvements.
+When contributing to this repository, please first discuss the change you wish to make via email.
     
 ## Tests:
 None
     
 ## Questions:
-Contact me regarding any questions you may have.<br>
+Feel free to contact regarding any questions you may have.<br>
 Github: https://github.com/wamackie<br>
 Email: wamackie8456@gmail.com
